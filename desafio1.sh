@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Diretorios"
+echo "Diretórios"
 
 mkdir/ public
 mkdir/ adm
@@ -31,11 +31,11 @@ echo "Permissões"
 
 chown root:GRP_ADM /adm
 chown root:GRP_SALES /ven
-chown root:GRP_CYSEC /sec
+chown root:GRP_CYSEC /seg
 
 chmod 777/publica
 chmod 770/adm
 chmod 770/ven
-chmod 770/sec
+chmod 770/seg
 
 echo "Feito"
